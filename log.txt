@@ -17,3 +17,21 @@ Building email for Colorescience ...
      --> Email sent successfully. Message ID: 1941513216bec4f0
 Building email for Henry Rose ...
      --> Email sent successfully. Message ID: 194151328913de9a
+
+***********************************************************************************************************
+********************** Current date and time in PST: Sun Dec 29 23:35:01 PST 2024 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194167d64cafdb8f
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194167d68f728475
+
+***********************************************************************************************************
+********************** Current date and time in PST: Sun Dec 29 23:44:02 PST 2024 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 1941685a34bd1ec6
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 1941685a9f14b2bb
