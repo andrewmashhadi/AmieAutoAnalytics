@@ -35,3 +35,408 @@ Building email for Colorescience ...
      --> Email sent successfully. Message ID: 1941685a34bd1ec6
 Building email for Henry Rose ...
      --> Email sent successfully. Message ID: 1941685a9f14b2bb
+
+***********************************************************************************************************
+********************** Current date and time in PST: Mon Dec 30 08:00:03 PST 2024 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194184bc1daf583e
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194184bc6dde0b14
+
+***********************************************************************************************************
+********************** Current date and time in PST: Tue Dec 31 08:00:02 PST 2024 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 1941d72186848aa2
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 1941d721ffd59581
+
+***********************************************************************************************************
+********************** Current date and time in PST: Wed Jan  1 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194229875ea0c7de
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194229878414893c
+
+***********************************************************************************************************
+********************** Current date and time in PST: Thu Jan  2 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 19427bed2eb091b5
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 19427bed992bd44a
+
+***********************************************************************************************************
+********************** Current date and time in PST: Fri Jan  3 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 1942ce52f855d9cd
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 1942ce5358b22c42
+
+***********************************************************************************************************
+********************** Current date and time in PST: Sat Jan  4 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194320b8a543f156
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194320b90e889b41
+
+***********************************************************************************************************
+********************** Current date and time in PST: Sun Jan  5 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 1943731e77b30172
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 1943731ecfa8eb6b
+
+***********************************************************************************************************
+********************** Current date and time in PST: Mon Jan  6 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 1943c5843de75973
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 1943c584884a9a5b
+
+***********************************************************************************************************
+********************** Current date and time in PST: Tue Jan  7 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194417e9ebc70fbf
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194417ea42674925
+
+***********************************************************************************************************
+********************** Current date and time in PST: Wed Jan  8 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 19446a4fc25faaff
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 19446a503e941afd
+
+***********************************************************************************************************
+********************** Current date and time in PST: Thu Jan  9 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 1944bcb54a2c172e
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 1944bcb5d26d214d
+
+***********************************************************************************************************
+********************** Current date and time in PST: Fri Jan 10 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 19450f1b46f95f90
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 19450f1baffae7da
+
+***********************************************************************************************************
+********************** Current date and time in PST: Sat Jan 11 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 19456180f997340b
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194561812da6003f
+
+***********************************************************************************************************
+********************** Current date and time in PST: Sun Jan 12 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 1945b3e6a54eb568
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 1945b3e70fb2ff39
+
+***********************************************************************************************************
+********************** Current date and time in PST: Mon Jan 13 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 1946064cb6e2d8e3
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 1946064d1f552f5a
+
+***********************************************************************************************************
+********************** Current date and time in PST: Tue Jan 14 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194658b25546552e
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194658b2b39fb08c
+
+***********************************************************************************************************
+********************** Current date and time in PST: Wed Jan 15 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 1946ab18256c61e5
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 1946ab188835115d
+
+***********************************************************************************************************
+********************** Current date and time in PST: Thu Jan 16 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 1946fd7dd0556927
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 1946fd7e480d927d
+
+***********************************************************************************************************
+********************** Current date and time in PST: Fri Jan 17 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 19474fe38142f83a
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 19474fe3ee3dcb80
+
+***********************************************************************************************************
+********************** Current date and time in PST: Sat Jan 18 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 1947a2491b4d9b79
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 1947a24972717b5b
+
+***********************************************************************************************************
+********************** Current date and time in PST: Sun Jan 19 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 1947f4aef826831e
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 1947f4af5eb2b10e
+
+***********************************************************************************************************
+********************** Current date and time in PST: Mon Jan 20 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+Traceback (most recent call last):
+  File "/home/ec2-user/projects/AmieAutoAnalytics/main.py", line 86, in <module>
+    main(auto_settings)
+  File "/home/ec2-user/projects/AmieAutoAnalytics/main.py", line 71, in main
+    body = build_message(client_id)
+  File "/home/ec2-user/projects/AmieAutoAnalytics/main.py", line 22, in build_message
+    perf_df = grab_tiktok_stats(client_id, yest_date.strftime('%Y-%m-%d'), yest_date.strftime('%Y-%m-%d'))
+  File "/home/ec2-user/projects/AmieAutoAnalytics/auto_analytics/auto_analytics_collection.py", line 37, in grab_tiktok_stats
+    return query_job.to_dataframe()
+  File "/home/ec2-user/miniconda3/envs/aaa-env/lib/python3.9/site-packages/google/cloud/bigquery/job/query.py", line 2057, in to_dataframe
+    query_result = wait_for_query(self, progress_bar_type, max_results=max_results)
+  File "/home/ec2-user/miniconda3/envs/aaa-env/lib/python3.9/site-packages/google/cloud/bigquery/_tqdm_helpers.py", line 107, in wait_for_query
+    return query_job.result(max_results=max_results)
+  File "/home/ec2-user/miniconda3/envs/aaa-env/lib/python3.9/site-packages/google/cloud/bigquery/job/query.py", line 1681, in result
+    while not is_job_done():
+  File "/home/ec2-user/miniconda3/envs/aaa-env/lib/python3.9/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+  File "/home/ec2-user/miniconda3/envs/aaa-env/lib/python3.9/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/ec2-user/miniconda3/envs/aaa-env/lib/python3.9/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/ec2-user/miniconda3/envs/aaa-env/lib/python3.9/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+  File "/home/ec2-user/miniconda3/envs/aaa-env/lib/python3.9/site-packages/google/cloud/bigquery/job/query.py", line 1630, in is_job_done
+    raise job_failed_exception
+google.api_core.exceptions.BadRequest: 400 division by zero: 0 / 0; reason: invalidQuery, location: query, message: division by zero: 0 / 0
+
+Location: US
+Job ID: f62357a5-cf27-4329-ae00-8d4f5dd6b846
+
+
+***********************************************************************************************************
+********************** Current date and time in PST: Tue Jan 21 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 1948997a710416b3
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 1948997b3e9b3af8
+
+***********************************************************************************************************
+********************** Current date and time in PST: Wed Jan 22 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 1948ebe023e80594
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 1948ebe088a97d54
+
+***********************************************************************************************************
+********************** Current date and time in PST: Thu Jan 23 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 19493e460aac51ca
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 19493e4676b8e8bb
+
+***********************************************************************************************************
+********************** Current date and time in PST: Fri Jan 24 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194990aba8af36d4
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194990ac18227c72
+
+***********************************************************************************************************
+********************** Current date and time in PST: Sat Jan 25 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 1949e3115fc17799
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 1949e311bf053b1f
+
+***********************************************************************************************************
+********************** Current date and time in PST: Sun Jan 26 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194a357746b61e66
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194a3577b3f2382b
+
+***********************************************************************************************************
+********************** Current date and time in PST: Mon Jan 27 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194a87dcce6460e1
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194a87dd5303d8f6
+
+***********************************************************************************************************
+********************** Current date and time in PST: Tue Jan 28 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194ada42d6d01686
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194ada433ca709e6
+
+***********************************************************************************************************
+********************** Current date and time in PST: Wed Jan 29 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194b2ca85581deb5
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194b2ca8bd9e9ae9
+
+***********************************************************************************************************
+********************** Current date and time in PST: Thu Jan 30 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194b7f0e2a315226
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194b7f0e97218b02
+
+***********************************************************************************************************
+********************** Current date and time in PST: Fri Jan 31 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194bd173f4341e94
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194bd17459df622b
+
+***********************************************************************************************************
+********************** Current date and time in PST: Sat Feb  1 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194c23d9ce5f6c80
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194c23da30ed675b
+
+***********************************************************************************************************
+********************** Current date and time in PST: Sun Feb  2 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194c763f750c96ec
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194c763fb2f83864
+
+***********************************************************************************************************
+********************** Current date and time in PST: Mon Feb  3 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194cc8a511428720
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194cc8a582b8e19c
+
+***********************************************************************************************************
+********************** Current date and time in PST: Tue Feb  4 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194d1b0af1cbe9d2
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194d1b0b4bb95f90
+
+***********************************************************************************************************
+********************** Current date and time in PST: Wed Feb  5 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194d6d70fc5ffbae
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194d6d7142759ecf
+
+***********************************************************************************************************
+********************** Current date and time in PST: Thu Feb  6 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194dbfd69f3c8787
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194dbfd6e30ccd4d
+
+***********************************************************************************************************
+********************** Current date and time in PST: Fri Feb  7 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194e123c21bd7b7f
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194e123c9ecce726
+
+***********************************************************************************************************
+********************** Current date and time in PST: Sat Feb  8 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194e64a212a0405f
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194e64a2528b77f3
+
+***********************************************************************************************************
+********************** Current date and time in PST: Sun Feb  9 08:00:02 PST 2025 **********************
+***********************************************************************************************************
+ 
+Building email for Colorescience ...
+     --> Email sent successfully. Message ID: 194eb707a095b9e3
+Building email for Henry Rose ...
+     --> Email sent successfully. Message ID: 194eb70859589253

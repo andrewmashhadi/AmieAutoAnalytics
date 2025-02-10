@@ -1,6 +1,7 @@
 ##### LOAD LIBRARIES
 import os
 import numpy as np
+import pandas as pd
 from datetime import datetime, timedelta, time
 import pytz
 import smtplib
@@ -35,6 +36,109 @@ def get_yesterdays_date():
     yest_date = today - timedelta(days=1)
     return yest_date
 
+def get_last_weeks_date():
+    """Returns last weeks's date in Los Angeles time."""
+    today = get_todays_date()
+    last_week_date = today - timedelta(days=7)
+    return last_week_date
+
+# Function to convert non-empty DataFrames to HTML
+def df_to_html(df):
+    return df.to_html(index=False, classes="small-table", border=1) if not df.empty else ""
+
+def get_blended_table(perf_df):
+
+    if not perf_df.empty:
+        spend = perf_df['Spend'].sum()
+        roas = (perf_df['DTC_Revenue'].sum() + perf_df['TTS_Revenue'].sum()) / spend
+        
+        data = {('Blended', ' Spend '): [f" ${spend:,.2f} "],
+                ('Blended', ' ROAS '): [f" {roas:.2f} "]}
+        
+        multi_index = pd.MultiIndex.from_tuples(data.keys())
+        return pd.DataFrame(data.values(), index=multi_index).T
+    
+    else:
+        return pd.DataFrame()
+
+def get_video_views_table(perf_df):
+
+    view_df = perf_df[perf_df['obj_camp_source']=='VIDEO_VIEWS ']
+
+    if not view_df.empty:
+        views = view_df['Views'].sum()
+        engagement_rate = view_df['Engagements'].sum() / view_df['Impressions'].sum()
+        data = {
+            ('Video Views', ' Views '): [f" {round(views)} "],
+            ('Video Views', ' Engagement Rate '): [f" {engagement_rate:.2%} "],
+            ('Benchmark', ' Engagement Rate '): [f" X.XX% "]
+        }
+
+        multi_index = pd.MultiIndex.from_tuples(data.keys())
+        return pd.DataFrame(data.values(), index=multi_index).T
+
+    else:
+        return pd.DataFrame()
+
+def get_community_table(perf_df):
+
+    com_df = perf_df[perf_df['obj_camp_source']=='ENGAGEMENT ']
+
+    if not com_df.empty:
+        follows = com_df['Follows'].sum()
+        CPF = com_df['Spend'].sum() / com_df['Follows'].sum()
+        data = {
+            ('Community Interaction', ' Follows '): [f" {round(follows)} "],
+            ('Community Interaction', ' CPF '): [f" ${CPF:,.2f} "],
+            ('Benchmark', ' CPF '): [f" $X.XX "]
+        }
+
+        multi_index = pd.MultiIndex.from_tuples(data.keys())
+        return pd.DataFrame(data.values(), index=multi_index).T
+
+    else:
+        return pd.DataFrame()
+
+def get_dtc_table(perf_df):
+
+    dtc_df = perf_df[np.any((perf_df['obj_camp_source']=='WEB_CONVERSIONS ', perf_df['obj_camp_source']=='PRODUCT_SALES CATALOG'), axis=0)]
+
+    if not dtc_df.empty:
+        spend = dtc_df['Spend'].sum()
+        CPA = dtc_df['Spend'].sum() / dtc_df['Conversions'].sum()
+        ROAS = dtc_df['DTC_Revenue'].sum() / dtc_df['Spend'].sum()
+        data = {
+            ('Conversion - DTC', ' ROAS '): [f" {ROAS:.2f} "],
+            ('Conversion - DTC', ' CPA '): [f" ${CPA:,.2f} "],
+            ('Benchmark', ' ROAS '): [f" X.XX "]
+        }
+
+        multi_index = pd.MultiIndex.from_tuples(data.keys())
+        return pd.DataFrame(data.values(), index=multi_index).T
+
+    else:
+        return pd.DataFrame()
+
+def get_tts_table(perf_df):
+
+    tts_df = perf_df[perf_df['obj_camp_source']=='PRODUCT_SALES STORE']
+
+    if not tts_df.empty:
+        spend = tts_df['Spend'].sum()
+        CPA = tts_df['Spend'].sum() / tts_df['Conversions'].sum()
+        ROAS = tts_df['TTS_Revenue'].sum() / tts_df['Spend'].sum()
+        data = {
+            ('Conversion - TTS', ' ROAS '): [f" {ROAS:.2f} "],
+            ('Conversion - TTS', ' CPA '): [f" ${CPA:,.2f} "],
+            ('Benchmark', ' ROAS '): [f" X.XX "]
+        }
+
+        multi_index = pd.MultiIndex.from_tuples(data.keys())
+        return pd.DataFrame(data.values(), index=multi_index).T
+
+    else:
+        return pd.DataFrame()
+
 def authenticate_gmail():
     """Authenticate and return a valid Gmail API client."""
     creds = None
@@ -57,7 +161,6 @@ def authenticate_gmail():
     # Build the Gmail API client
     service = build('gmail', 'v1', credentials=creds)
     return service
-
 
 def create_message(sender, to_list, subject, body):
     """Create an email message."""

@@ -16,46 +16,47 @@ def build_subject(client_name):
 
 
 def build_message(client_id):
-
     # Assuming these functions are defined elsewhere
     yest_date = get_yesterdays_date()
-    perf_df = grab_tiktok_stats(client_id, yest_date.strftime('%Y-%m-%d'), yest_date.strftime('%Y-%m-%d'))
+    lw_date = get_last_weeks_date()
+    perf_df = grab_tiktok_stats_grouped(client_id, lw_date.strftime('%Y-%m-%d'), yest_date.strftime('%Y-%m-%d'))
 
-    # Add "$" in front of certain columns
-    if 'Spend' in perf_df.columns:
-        perf_df['Spend'] = perf_df['Spend'].apply(lambda x: f"${x:,.2f}")
-    if 'CPM' in perf_df.columns:
-        perf_df['CPM'] = perf_df['CPM'].apply(lambda x: f"${x:,.2f}")
-    if 'CPC' in perf_df.columns:
-        perf_df['CPC'] = perf_df['CPC'].apply(lambda x: f"${x:,.2f}")
-    if 'CPF' in perf_df.columns:
-        perf_df['CPF'] = perf_df['CPF'].apply(lambda x: f"${x:,.2f}")
+    # Generate DataFrames
+    blended_df = get_blended_table(perf_df)
+    view_df = get_video_views_table(perf_df)
+    com_df = get_community_table(perf_df)
+    dtc_df = get_dtc_table(perf_df)
+    tts_df = get_tts_table(perf_df)
 
-    # Add "%" after certain columns
-    if 'Engagement Rate' in perf_df.columns:
-        perf_df['Engagement Rate'] = perf_df['Engagement Rate'].apply(lambda x: f"{x:.2f}%")
-    if 'CTR' in perf_df.columns:
-        perf_df['CTR'] = perf_df['CTR'].apply(lambda x: f"{x:.2f}%")
+    # Generate tables only if they have data
+    tables = {
+        "Blended Performance Metrics": df_to_html(blended_df),
+        "Video Views Metrics": df_to_html(view_df),
+        "Community Engagement Metrics": df_to_html(com_df),
+        "Direct-To-Consumer Metrics": df_to_html(dtc_df),
+        "TikTok Shop Metrics": df_to_html(tts_df)
+    }
 
-    # Convert DataFrame to an HTML table
-    table_html = perf_df.to_html(index=False, classes="small-table", border=1)
+    # Construct the HTML by including only non-empty tables
+    tables_html = "".join(
+        f"<h4>{title}</h4><br>{html}<br>" for title, html in tables.items() if html
+    )
 
-
-    # Build the message with added newlines
+    # Build the message
     message = f"""
     <html>
         <body>
-            <p>Hello,<br></p>
-            <p>The following table contains a summary of yesterday's brand-level performance ({yest_date.strftime('%m/%d')}):</p>
+            <p>Good morning,<br><br></p>
+            <p>Please see below for the L7D TikTok performance metrics. Feel free to email your dedicated Paid Account Manager with any questions.</p>
+            <br>
+            {tables_html if tables_html else "<p>No data available for this period...</p>"}
             <br> 
-            {table_html}
-            <br> 
-            <p>For a more detailed view, please visit your <a href="https://lookerstudio.google.com/reporting/f23afdf6-4dbe-4e57-8564-a4f0c744e5d8" target="_blank">Performance Overview Dashboard</a>.</p>
+            <p>For a more detailed & interactive view, please visit your <a href="https://lookerstudio.google.com/reporting/f23afdf6-4dbe-4e57-8564-a4f0c744e5d8" target="_blank">Performance Overview Dashboard</a>.</p>
             <br>
             <p>Best,
             <br>
             <br>
-            Amie's Analytics Team</p>
+            Amie's Paid Media Team</p>
         </body>
     </html>
     """
@@ -69,8 +70,8 @@ def main(auto_settings):
         print(f"Building email for {client_settings['client_name_str']} ...")
         subject = build_subject(client_settings["client_name_str"])
         body = build_message(client_id)
-
         send_email(client_settings['sender_email'], subject, body, client_settings['client_emails'])
+
 
 
 ####

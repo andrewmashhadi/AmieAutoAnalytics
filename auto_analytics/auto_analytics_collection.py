@@ -9,7 +9,7 @@ import pandas as pd
 from .auto_analytics_utils import *
 
 
-def grab_tiktok_stats(client_id, st_date, end_date):
+def grab_tiktok_stats_grouped(client_id, st_date, end_date):
 
     # Authenticate using the service account
     credentials = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE)
@@ -19,17 +19,20 @@ def grab_tiktok_stats(client_id, st_date, end_date):
 
     # Query BigQuery
     query = f"""
-        SELECT ROUND(SUM(spend), 2) AS Spend, 
+        SELECT 
+        CONCAT(objective_type, ' ', COALESCE(campaign_product_source, '')) AS obj_camp_source,
+        ROUND(SUM(spend), 2) AS Spend, 
+        ROUND(SUM(total_complete_payment_rate), 2) AS DTC_Revenue,
+        ROUND(SUM(total_onsite_shopping_value), 2) AS TTS_Revenue,
         SUM(follows) AS Follows,
-        ROUND(SUM(Spend)/(SUM(impressions)/1000), 2) AS CPM,
-        ROUND(SUM(Spend)/SUM(engagements), 2) AS CPC,
-        ROUND(100*SUM(engagements)/SUM(impressions), 2) AS `Engagement Rate`,
-        ROUND(100*SUM(clicks)/SUM(impressions), 2) AS CTR,
-        ROUND(SUM(Spend)/SUM(Follows), 2) AS CPF,
-        ROUND(SUM(total_complete_payment_rate)/SUM(Spend), 2) AS `CP ROAS`
+        SUM(engaged_view) AS Views,
+        SUM(engagements) AS Engagements,
+        SUM(impressions) AS Impressions,
+        SUM(conversions) AS Conversions
         FROM reporting.campaign_conversions
         WHERE advertiser_name='{client_id}'
-        AND date BETWEEN '{st_date}' AND '{end_date}';
+        AND date BETWEEN '{st_date}' AND '{end_date}'
+        GROUP BY obj_camp_source;
     """
     query_job = client.query(query)
 
